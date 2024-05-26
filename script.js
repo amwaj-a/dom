@@ -34,24 +34,6 @@ for (let index = 0; index < li.length; index++) {
   li[index].style.border = "2px solid black";
 }
 
-// let table = list.insertAdjacentHTML(
-//   "afterend",
-//   `
-// <table>
-//     <tr>
-//         <th>Name</th>
-//         <th>Age</th>
-//         <th>id</th>
-//     </tr>
-//     <td>
-//         <td>Ahmed</td>
-//         <td>20</td>
-//         <td>1929292</td>
-//     </td>
-// </table>
-// `
-// );
-
 let table = document.createElement("table");
 document.body.appendChild(table);
 table.insertAdjacentHTML(
